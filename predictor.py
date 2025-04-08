@@ -76,27 +76,30 @@ def demande_scores(nom_equipe):
     print(f"\nEntrez les scores des 5 derniers matchs pour {nom_equipe} :")
     return [int(input(f"Match {i+1} : ")) for i in range(5)]
 
-def suggere_mise(fiabilite, solde, profil_actif, profils):
-    profil = profils["profils"].get(profil_actif, {})
-    # on parcourt les paliers du profil
-    for seuil_str, pct in profil.items():
-        seuil = int(seuil_str.strip(">="))
-        if fiabilite >= seuil:
-            mise = int(solde * pct)
-            break
-    else:
-        mise = int(solde * profil.get("<60", 0.15))
-    # conseils basés sur la part du solde
-    part = mise / solde if solde else 0
-    if part >= 0.50:
-        conseil = "Fonce !"
-    elif part >= 0.35:
-        conseil = "Bonne chance, bon potentiel."
-    elif part >= 0.20:
-        conseil = "Risque modéré, mise réduite."
-    else:
-        conseil = "Très risqué, petite mise conseillée."
-    return mise, conseil
+def suggere_mise(fiab, solde, profil_actif, profils):
+    profil = profils["profils"].get(profil_actif)
+    if not profil:
+        return 0, "Aucun profil actif."
+
+    seuils = []
+    for seuil_str in profil:
+        if seuil_str.startswith(">="):
+            try:
+                seuil = int(seuil_str.strip(">="))
+                seuils.append((seuil, profil[seuil_str]))
+            except ValueError:
+                continue  # Ignore toute clé mal formée
+
+    # Trier par seuil décroissant
+    seuils.sort(reverse=True)
+
+    for seuil, pct in seuils:
+        if fiab >= seuil:
+            mise = solde * (pct / 100)
+            conseil = f"Fiabilité: {fiab}%, Mise: {pct}% du capital ({int(mise)} F)"
+            return int(mise), conseil
+
+    return 0, "Aucune mise conseillée pour cette fiabilité."
 
 def enregistrer_pari(data):
     with open(historique_fichier, "a") as f:

@@ -16,3 +16,10 @@ Fiabilité: 55% | Pari: Les deux | Cote: 3.613 | Résultat: GAGNÉ
 Fiabilité: 31% | Pari: Les deux | Cote: 2.05 | Résultat: PERDU
 Fiabilité: 65% | Pari: Les deux | Cote: 3.336 | Résultat: GAGNÉ
 Fiabilité: 46% | Pari: Les deux | Cote: 2.822 | Résultat: GAGNÉ
+Fiabilité: 42% | Pari: Les deux | Cote: 3.0 | Résultat: PERDU
+Fiabilité: 28% | Pari: 1ère mi-temps | Cote: 1.37 | Résultat: GAGNÉ
+Fiabilité: 51% | Pari: Les deux | Cote: 2.35 | Résultat: PERDU
+Fiabilité: 49% | Pari: Les deux | Cote: 2.74 | Résultat: GAGNÉ
+Fiabilité: 42% | Pari: Les deux | Cote: 2.93 | Résultat: GAGNÉ
+Fiabilité: 55% | Pari: Les deux | Cote: 3.52 | Résultat: GAGNÉ
+Fiabilité: 63% | Pari: 1ère mi-temps | Cote: 1.82 | Résultat: GAGNÉ

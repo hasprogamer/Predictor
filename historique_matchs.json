@@ -1,0 +1,202 @@
+{
+    "historique": [
+        {
+            "equipes": "10 - 6",
+            "score": [
+                10,
+                6
+            ],
+            "fiabilite": 33,
+            "resultat": "GAGN\u00c9",
+            "cote": 0.0,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "14 - 12",
+            "score": [
+                14,
+                12
+            ],
+            "fiabilite": 52,
+            "resultat": "PERDU",
+            "cote": 2.84,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "8 - 10",
+            "score": [
+                8,
+                10
+            ],
+            "fiabilite": 39,
+            "resultat": "GAGN\u00c9",
+            "cote": 2.76,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "13 - 8",
+            "score": [
+                13,
+                8
+            ],
+            "fiabilite": 49,
+            "resultat": "PERDU",
+            "cote": 2.74,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "11 - 15",
+            "score": [
+                11,
+                15
+            ],
+            "fiabilite": 56,
+            "resultat": "GAGN\u00c9",
+            "cote": 3.3,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "14 - 16",
+            "score": [
+                14,
+                16
+            ],
+            "fiabilite": 60,
+            "resultat": "GAGN\u00c9",
+            "cote": 3.2,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "15 - 6",
+            "score": [
+                15,
+                6
+            ],
+            "fiabilite": 44,
+            "resultat": "PERDU",
+            "cote": 3.34,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "8 - 13",
+            "score": [
+                8,
+                13
+            ],
+            "fiabilite": 41,
+            "resultat": "GAGN\u00c9",
+            "cote": 2.8,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "15 - 10",
+            "score": [
+                15,
+                10
+            ],
+            "fiabilite": 52,
+            "resultat": "PERDU",
+            "cote": 3.0,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "6 - 8",
+            "score": [
+                6,
+                8
+            ],
+            "fiabilite": 26,
+            "resultat": "PERDU",
+            "cote": 0.0,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "9 - 11",
+            "score": [
+                9,
+                11
+            ],
+            "fiabilite": 41,
+            "resultat": "PERDU",
+            "cote": 2.82,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "10 - 10",
+            "score": [
+                10,
+                10
+            ],
+            "fiabilite": 38,
+            "resultat": "GAGN\u00c9",
+            "cote": 2.725,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "13 - 13",
+            "score": [
+                13,
+                13
+            ],
+            "fiabilite": 63,
+            "resultat": "GAGN\u00c9",
+            "cote": 1.4556,
+            "pari_type": "1\u00e8re mi-temps"
+        },
+        {
+            "equipes": "11 - 11",
+            "score": [
+                11,
+                11
+            ],
+            "fiabilite": 52,
+            "resultat": "GAGN\u00c9",
+            "cote": 2.81,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "12 - 11",
+            "score": [
+                12,
+                11
+            ],
+            "fiabilite": 55,
+            "resultat": "GAGN\u00c9",
+            "cote": 3.613,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "11 - 7",
+            "score": [
+                11,
+                7
+            ],
+            "fiabilite": 31,
+            "resultat": "PERDU",
+            "cote": 2.05,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "19 - 8",
+            "score": [
+                19,
+                8
+            ],
+            "fiabilite": 65,
+            "resultat": "GAGN\u00c9",
+            "cote": 3.336,
+            "pari_type": "Les deux"
+        },
+        {
+            "equipes": "11 - 11",
+            "score": [
+                11,
+                11
+            ],
+            "fiabilite": 46,
+            "resultat": "GAGN\u00c9",
+            "cote": 2.822,
+            "pari_type": "Les deux"
+        }
+    ]
+}

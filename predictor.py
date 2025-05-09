@@ -47,8 +47,7 @@ def charger_bankroll():
     if os.path.exists(bankroll_fichier):
         with open(bankroll_fichier, 'r') as f:
             return json.load(f)
-    return {"capital_initial": 10000, "capital_actuel": 10000}
-
+    return {"capital_initial": 5000, "capital_actuel": 5000}
 def sauvegarder_bankroll(bankroll):
     with open(bankroll_fichier, 'w') as f:
         json.dump(bankroll, f, indent=4)
